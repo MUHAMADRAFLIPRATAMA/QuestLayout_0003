@@ -32,6 +32,12 @@ fun AktivitasPertama(modifier: Modifier) {
     Box(
         modifier = modifier.fillMaxSize()
     ) {
+        Image(
+            painter = painterResource(id = R.drawable.prabowo),
+            contentDescription = null,
+            contentScale = ContentScale.Crop,
+            modifier = Modifier.fillMaxSize()
+        )
         Column(
             modifier = Modifier.padding(top = 100.dp)
                 .fillMaxSize(),
@@ -56,7 +62,7 @@ fun AktivitasPertama(modifier: Modifier) {
                 )
             ) {
                 Row() {
-                    val gambar = painterResource(R.drawable.jmk)
+                    val gambar = painterResource(R.drawable.kucing)
                     Image(
                         painter = gambar,
                         contentDescription = null,
